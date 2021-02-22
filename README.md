@@ -1,0 +1,2 @@
+# nektu
+Žaidimo NeKTU repozitorija
