@@ -8,10 +8,7 @@ public class PlayerCameraController : MonoBehaviour {
     public int Smoothvalue =2;
     public float PosY = 1;
     public Coroutine my_co;
-    void Start()
-    {
-     
-    }
+
     void Update()
     {
         Vector3 Targetpos = new Vector3(Target.transform.position.x, Target.transform.position.y + PosY, -100);

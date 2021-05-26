@@ -9,6 +9,39 @@ EditorBuildSettings:
     path: Assets/Scenes/Menu.unity
     guid: 34690a2f0b2dc404697c7153b86bdda8
   - enabled: 1
-    path: Assets/Scenes/SampleScene.unity
+    path: Assets/Scenes/Level1.unity
     guid: 2cda990e2423bbf4892e6590ba056729
+  - enabled: 1
+    path: Assets/Scenes/Level2.unity
+    guid: cf29ba125fb45404ea29f3e9a69c2a05
+  - enabled: 1
+    path: Assets/Scenes/Level3.unity
+    guid: 1f6d102e80ae80a4bae3e21d0c2d0b3b
+  - enabled: 1
+    path: Assets/Scenes/Level4.unity
+    guid: 8931c7445875b5b4d9921a595051c7b0
+  - enabled: 1
+    path: Assets/Scenes/Level5.unity
+    guid: 3323a44b5dd97aa45a1b6a48ef772f5b
+  - enabled: 1
+    path: Assets/Scenes/Level6.unity
+    guid: a11ae57c0ee99774aaa800af2f2fcf59
+  - enabled: 1
+    path: Assets/Scenes/Level7.unity
+    guid: 7cdf12fe334b91842b8fbf9d3f6e28f6
+  - enabled: 1
+    path: Assets/Scenes/Level8.unity
+    guid: ef333184b39fd5141ae9b457915bd93a
+  - enabled: 1
+    path: Assets/Scenes/Level9.unity
+    guid: dc09d5f2cf8ebf74ba633e020844c8fe
+  - enabled: 1
+    path: Assets/Scenes/Level10.unity
+    guid: d1e05fd08c079c4468644c76c1645614
+  - enabled: 1
+    path: Assets/Scenes/Level11.unity
+    guid: 067563e34ff20af42bc188528b5d44a4
+  - enabled: 1
+    path: Assets/Scenes/BossRoom.unity
+    guid: 918185547cf9f7d43a820789a950b9e8
   m_configObjects: {}

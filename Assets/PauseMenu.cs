@@ -8,6 +8,13 @@ public class PauseMenu : MonoBehaviour
     public static bool GameIsPaused = false;
     public GameObject pauseMenuUI;
     public GameObject pauseMenuUiScore;
+    private float musicVolume = 1f;
+    private AudioSource audioSrc;
+
+    private void Start()
+    {
+        audioSrc = GetComponent<AudioSource>();
+    }
 
     // Update is called once per frame
     void Update()
@@ -23,6 +30,7 @@ public class PauseMenu : MonoBehaviour
                 Pause();
             }
         }
+
     }
     public void Resume()
     {
@@ -40,8 +48,13 @@ public class PauseMenu : MonoBehaviour
     }
     public void ResetScene()
     {
-        SceneManager.LoadScene(1);
+        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
         Time.timeScale = 1f;
+    }
+
+    public void SetVolume(float vol)
+    {
+        musicVolume = vol;
     }
 
 

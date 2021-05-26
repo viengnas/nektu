@@ -2,6 +2,7 @@
 
 public class jumpstuff : MonoBehaviour
 {
+    public Animator animator;
     public float MovementSpeed = 1;
     public float JumpForce = 1;
     private Rigidbody2D _rigidbody;
@@ -13,6 +14,8 @@ public class jumpstuff : MonoBehaviour
 
     private void Update()
     {
+        animator.SetFloat("Horizontal", Input.GetAxis("Horizontal"));
+
         var movement = Input.GetAxis("Horizontal");
         transform.position += new Vector3(movement,0,0) * Time.deltaTime * MovementSpeed;
         

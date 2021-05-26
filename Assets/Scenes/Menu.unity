@@ -1244,10 +1244,21 @@ MonoBehaviour:
   m_MinValue: 0
   m_MaxValue: 1
   m_WholeNumbers: 0
-  m_Value: 0
+  m_Value: 0.553
   m_OnValueChanged:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 562437169}
+        m_MethodName: SetVolume
+        m_Mode: 0
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!1 &383585473
 GameObject:
   m_ObjectHideFlags: 0
@@ -1617,6 +1628,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4db40a4a4eca3ea4c8bd3dda3ed7298a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  mSlider: {fileID: 283347065}
 --- !u!1 &596265148
 GameObject:
   m_ObjectHideFlags: 0
@@ -1698,7 +1710,18 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 596265151}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 562437169}
+        m_MethodName: PlayLevel4
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &596265151
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2085,7 +2108,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 562437169}
-        m_MethodName: PlayGame
+        m_MethodName: PlayLevel1
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -3092,7 +3115,6 @@ GameObject:
   m_Component:
   - component: {fileID: 985680193}
   - component: {fileID: 985680192}
-  - component: {fileID: 985680191}
   m_Layer: 0
   m_Name: Main Camera
   m_TagString: MainCamera
@@ -3100,14 +3122,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!81 &985680191
-AudioListener:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 985680190}
-  m_Enabled: 1
 --- !u!20 &985680192
 Camera:
   m_ObjectHideFlags: 0
@@ -3638,7 +3652,18 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1206568506}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 562437169}
+        m_MethodName: PlayLevel2
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1206568506
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3757,7 +3782,18 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1245959886}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 562437169}
+        m_MethodName: PlayLevel3
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1245959886
 MonoBehaviour:
   m_ObjectHideFlags: 0
