@@ -1,2 +1,3 @@
 # nektu
 Žaidimo NeKTU repozitorija
+:)
